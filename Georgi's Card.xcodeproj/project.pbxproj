@@ -12,6 +12,8 @@
 		ED6C181828B1135A007D8876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C181728B1135A007D8876 /* ContentView.swift */; };
 		ED6C181A28B1135B007D8876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6C181928B1135B007D8876 /* Assets.xcassets */; };
 		ED6C181D28B1135B007D8876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6C181C28B1135B007D8876 /* Preview Assets.xcassets */; };
+		ED6C182628B113C6007D8876 /* DynaPuff.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6C182528B113C6007D8876 /* DynaPuff.ttf */; };
+		ED6C182828B113D3007D8876 /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6C182728B113D3007D8876 /* Silkscreen-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED6C181928B1135B007D8876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6C181C28B1135B007D8876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED6C181E28B1135B007D8876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6C182528B113C6007D8876 /* DynaPuff.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynaPuff.ttf; sourceTree = "<group>"; };
+		ED6C182728B113D3007D8876 /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		ED6C181228B1135A007D8876 /* Georgi's Card */ = {
 			isa = PBXGroup;
 			children = (
+				ED6C182428B113B1007D8876 /* fonts */,
 				ED6C181328B1135A007D8876 /* Georgi_s_CardApp.swift */,
 				ED6C181528B1135A007D8876 /* Georgi_s_CardDocument.swift */,
 				ED6C181728B1135A007D8876 /* ContentView.swift */,
@@ -70,6 +75,15 @@
 				ED6C181C28B1135B007D8876 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED6C182428B113B1007D8876 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED6C182728B113D3007D8876 /* Silkscreen-Regular.ttf */,
+				ED6C182528B113C6007D8876 /* DynaPuff.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6C182828B113D3007D8876 /* Silkscreen-Regular.ttf in Resources */,
 				ED6C181D28B1135B007D8876 /* Preview Assets.xcassets in Resources */,
 				ED6C181A28B1135B007D8876 /* Assets.xcassets in Resources */,
+				ED6C182628B113C6007D8876 /* DynaPuff.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
