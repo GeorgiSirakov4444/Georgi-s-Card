@@ -1,10 +1,3 @@
-//
-//  Georgi_s_CardDocument.swift
-//  Georgi's Card
-//
-//  Created by Georgi Sirakov on 20.08.22.
-//
-
 import SwiftUI
 import UniformTypeIdentifiers
 
